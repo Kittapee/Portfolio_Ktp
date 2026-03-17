@@ -20,7 +20,7 @@
     <div class="profile-section">
       <img src="assets/img/ktp.jpg" alt="Kittapee Sriboon" class="profile-pic">
       <h1 class="profile-name">Kittapee Sriboon</h1>
-      <p class="profile-title">Database Manager & Web Developer</p>
+      <p class="profile-title">Programming Developer</p>
     </div>
 
     <div class="tabs-nav">
@@ -34,7 +34,7 @@
       <h2>Profile Overview</h2>
       <p>Third-year student in Information Systems and Digital Business Innovation. Passionate about bridging software
         and hardware, whether it's building comprehensive inventory platforms or developing interactive systems and
-        applications. Looking for an internship at Buriram Sugar Factory Company Limited.</p>
+        applications. Looking for an internship at INTECH VALUE CO., LTD.</p>
 
       <div class="grid-2-col" style="margin-top: 40px;">
         <div>
@@ -51,7 +51,7 @@
             <span>Frontend</span>
             <div class="tags-container">
               <div class="tech-tag">HTML5</div>
-              <div class="tech-tag">CSS3</div>
+              <div class="tech-tag">CSS</div>
               <div class="tech-tag">JavaScript</div>
             </div>
           </div>
@@ -59,8 +59,8 @@
             <span>Backend & Database</span>
             <div class="tags-container">
               <div class="tech-tag">Node.js</div>
-              <div class="tech-tag">SQL Server</div>
-              <div class="tech-tag">Database Admin</div>
+              <div class="tech-tag">MySQL</div>
+              <div class="tech-tag">XAMPP</div>
             </div>
           </div>
           <div class="tech-category">
@@ -69,6 +69,8 @@
               <div class="tech-tag">React</div>
               <div class="tech-tag">React Native</div>
               <div class="tech-tag">Flutter</div>
+              <div class="tech-tag">Angular</div>
+              <div class="tech-tag">PHP Laravel</div>
             </div>
           </div>
         </div>
@@ -224,10 +226,14 @@
           <div>
             <h3 style="color: var(--accent-red);">Project Overview</h3>
             <p>โปรเจกต์ระบบจัดการคลังสินค้าประเภทอะลูมิเนียม (Aluminium Stock Management System - ASMS)
-              เป็นโปรเจกต์ระยะยาวที่พวกผมพัฒนาขึ้นเพื่อแก้ปัญหาการจัดการสต็อก โดยผู้จัดทำได้มีกันทั้งหมด 3 คน
-              โดยที่ผมเป็นหนึ่งในสมาชิก โดยแบ่งการพัฒนาออกเป็น 2 เฟสหลักๆ
+              เป็นโปรเจกต์ระยะยาวที่พวกผมพัฒนาขึ้นเพื่อแก้ปัญหาการจัดการสต็อก ผู้จัดทำได้มีกันทั้งหมด 3 คน
+              โดยที่มีผมเป็นหนึ่งในสมาชิก โดยแบ่งการพัฒนาออกเป็น 2 เฟสหลักๆ
               ตลอดระยะเวลา 3 ปีที่ผ่านมาในมหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน และในอนาคตในช่วงของการเรียนปีที่ 4 จะเป็นการ
-              Deployment ผลงานจริงสู่ธุรกิจ</p>
+              Deploy ผลงานจริงสู่ธุรกิจ</p>
+
+            <h3 style="color: var(--accent-red);">ความรับผิดชอบ</h3>
+            <p>เราได้มีการพัฒนาร่วมกันในเฟสต่างๆ ของโปรเจกต์นี้
+              โดยที่ผมจะเน้นไปที่การสร้างเว็บแอปพลิเคชันสำหรับจัดการสต็อกอะลูมิเนียม</p>
           </div>
           <div>
             <div class="timeline-item">
@@ -255,46 +261,33 @@
         <hr style="border-color: #333; margin: 40px 0;">
 
         <h3 style="color: #fff; margin-bottom: 5px;">System Analysis & Design</h3>
-        <p style="margin-bottom: 25px;">เอกสารและ Diagram ที่ผมออกแบบเพื่อวางโครงสร้างของระบบ ASMS:</p>
+        <p style="margin-bottom: 25px;">เอกสารและ Diagram บางส่วนที่ผมออกแบบเพื่อวางโครงสร้างของระบบ ASMS:</p>
 
         <div class="diagram-grid">
-          <div class="diagram-card" onclick="openModal('assets/img/portfolio/context-diagram.jpg', 'Context Diagram')">
-            <h4><i class="bi bi-bounding-box-circles"></i> Context Diagram</h4>
-            <p>แผนภาพแสดงภาพรวมของระบบและผู้ใช้งานที่เกี่ยวข้องกับระบบ ASMS ทั้งหมด</p>
+          <div class="diagram-card" onclick="openModal('assets/img/ASMS/FishBone.jpg', 'FishBone Diagram')">
+            <h4><i class="bi bi-bounding-box-circles"></i> FishBone ระบบงานเดิม</h4>
+            <p>แผนภาพก้างปลาของระบบงานเดิม</p>
             <span class="click-hint"><i class="bi bi-zoom-in"></i> Click to view image</span>
           </div>
 
-          <div class="diagram-card"
-            onclick="openModal('assets/img/portfolio/dfd-diagram.jpg', 'DFD (Data Flow Diagram)')">
-            <h4><i class="bi bi-diagram-3"></i> DFD (Data Flow Diagram)</h4>
-            <p>ออกแบบเส้นทางการไหลของข้อมูลตั้งแต่การรับสินค้าเข้า จนถึงการเบิกจ่ายสินค้า</p>
+          <div class="diagram-card" onclick="openModal('assets/img/ASMS/OldFlowchart.jpg', 'Flow Chart(Old)')">
+            <h4><i class="bi bi-database-gear"></i> Flow Chart(Old)</h4>
+            <p>อัลกอริทึมและเงื่อนไขการทำงานเชิงลึกของระบบแบบเก่า</p>
             <span class="click-hint"><i class="bi bi-zoom-in"></i> Click to view image</span>
           </div>
 
-          <div class="diagram-card" onclick="openModal('assets/img/portfolio/er-diagram.jpg', 'ER Diagram')">
-            <h4><i class="bi bi-database-gear"></i> ER Diagram</h4>
-            <p>Entity-Relationship Diagram วางโครงสร้างฐานข้อมูลตารางอะลูมิเนียมและประวัติการทำรายการ</p>
+          <div class="diagram-card" onclick="openModal('assets/img/ASMS/NewFlowchart.jpg', 'Flow Chart(New)')">
+            <h4><i class="bi bi-database-gear"></i> Flow Chart(New)</h4>
+            <p>อัลกอริทึมและเงื่อนไขการทำงานเชิงลึกของระบบแบบเก่า</p>
             <span class="click-hint"><i class="bi bi-zoom-in"></i> Click to view image</span>
           </div>
 
-          <div class="diagram-card" onclick="openModal('assets/img/portfolio/usecase-diagram.jpg', 'Use Case Diagram')">
-            <h4><i class="bi bi-person-lines-fill"></i> Use Case Diagram</h4>
-            <p>กำหนดสิทธิ์และขอบเขตการทำงานของผู้ใช้งานแต่ละระดับ (Admin, Staff)</p>
+          <div class="diagram-card" onclick="openModal('assets/img/ASMS/DFD0.jpg', 'DFD Level 0')">
+            <h4><i class="bi bi-person-lines-fill"></i> DFD level 0</h4>
+            <p>Diagram แสดงการไหลของข้อมูลในระดับแรกของระบบ</p>
             <span class="click-hint"><i class="bi bi-zoom-in"></i> Click to view image</span>
           </div>
 
-          <div class="diagram-card"
-            onclick="openModal('assets/img/portfolio/activity-diagram.jpg', 'Activity Diagram')">
-            <h4><i class="bi bi-arrow-down-up"></i> Activity Diagram</h4>
-            <p>แผนภาพแสดงลำดับขั้นตอนการทำงานในแต่ละฟังก์ชันหลักของระบบ</p>
-            <span class="click-hint"><i class="bi bi-zoom-in"></i> Click to view image</span>
-          </div>
-
-          <div class="diagram-card" onclick="openModal('assets/img/portfolio/flowchart-diagram.jpg', 'Flow Chart')">
-            <h4><i class="bi bi-diagram-2"></i> Flow Chart</h4>
-            <p>อัลกอริทึมและเงื่อนไขการทำงานเชิงลึกของฝั่งระบบและตัวแอปพลิเคชัน</p>
-            <span class="click-hint"><i class="bi bi-zoom-in"></i> Click to view image</span>
-          </div>
         </div>
 
       </div>
